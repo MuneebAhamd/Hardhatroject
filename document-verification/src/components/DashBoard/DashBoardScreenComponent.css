@@ -1,0 +1,123 @@
+.Body {
+    flex: 1;
+    border-left: 1px solid;
+    border-image: linear-gradient(45deg, rgb(243, 241, 243, 0.5), rgb(192, 192, 192, 0.5)) 1;
+}
+
+.mr {
+    border-left: 1px solid;
+    border-image: linear-gradient(45deg, rgb(243, 241, 243, 0.7), rgb(192, 192, 192, 0.9)) 1;
+}
+.container{
+    margin-left: 50px;
+    margin-top: -160px;
+}
+/* .dashboardFoot{
+    margin-bottom: 15%;
+} */
+.dashboard1{
+    height: 100vh;
+}
+.dashboard {
+    width: 951px;
+    height: 36px;
+    left: 0px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #5D5D5D;
+    margin: 50px;
+}
+
+.Defaultblockchainview {
+    width: 270px;
+    margin-left: 350px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    background: conic-gradient(from -90deg at 102% 100%, #28A745 0deg, rgba(0, 0, 0, 0.25) 273.47deg, rgba(86, 219, 116, 0) 360deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.dashboardHead {
+    margin-top: -200px;
+}
+
+.dashboardfead {
+    margin-left: 400px;
+    margin-bottom: 100px;
+    width: 136px;
+    height: 18px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    background: conic-gradient(from -90deg at 102% 100%, #28A745 0deg, rgba(0, 0, 0, 0.25) 273.47deg, rgba(86, 219, 116, 0) 360deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+@media (max-width: 880px) {
+    .Body {
+        flex: 1;
+    }
+
+    .mr {
+        height: 0%;
+        margin-left: -120px;
+    }
+
+    .dashboard {
+        width: 75%;
+        height: 0%;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #5D5D5D;
+        margin: 80px;
+    }
+
+    .Defaultblockchainview {
+        width: 40%;
+        margin-left: 35%;
+        margin-top: -15%;
+        background: conic-gradient(from -90deg at 102% 100%, #28A745 0deg, rgba(0, 0, 0, 0.25) 273.47deg, rgba(86, 219, 116, 0) 360deg);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .dashboardHead {
+        margin-top: 30%;
+    }
+
+    .dashboardfead {
+        margin-left: 40%;
+        /* margin-bottom: 150px; */
+        width: 30%;
+        height: 195px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        /* background: conic-gradient(from -90deg at 102% 100%, #28A745 0deg, rgba(0, 0, 0, 0.25) 273.47deg, rgba(86, 219, 116, 0) 360deg); */
+        /* -webkit-background-clip: text; */
+        /* -webkit-text-fill-color: transparent; */
+        /* background-clip: text; */
+    }
+}

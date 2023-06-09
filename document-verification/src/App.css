@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+  background-image: url("./assets/frillBg.png"), linear-gradient(to right, rgb(224, 242, 243), rgb(242, 249, 250));
+}
+
+
+.toast-container {
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.toast-container .toast {
+  position: relative;
+  pointer-events: auto;
+  overflow: hidden;
+  margin: 0 0 6px;
+  padding: 15px 15px 15px 50px;
+  width: 300px;
+  border-radius: 3px 3px 3px 3px;
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0 0 12px #999;
+  cursor: pointer;
+}
+
+.toast-container>div:first-child {
+  margin-top: 0;
+}
+
+.toast-container>div:last-child {
+  margin-bottom: 0;
+}
+
+.toast-container.toast-bottom-center {
+  bottom: 20px;
+  left: 50%;
+  margin-left: -150px;
+}
+
+.toast-container.toast-top-center {
+  top: 20px;
+  left: 50%;
+  margin-left: -150px;
+}

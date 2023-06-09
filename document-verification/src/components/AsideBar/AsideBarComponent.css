@@ -1,0 +1,36 @@
+.sideBarText {
+    display: flex;
+    padding: 6px;
+    flex-direction: row;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 5px;
+    text-transform: capitalize;
+    color: #28A745;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.asideBar {
+    right: 77%;
+    position: -webkit-sticky;
+    position: fixed;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 880px) {
+    .sideBarText {
+        display: none;
+        margin-bottom: 10px;
+    }
+}
+.sideBarLink{
+    /* margin-bottom: 10px; */
+    bottom: 10px;
+}

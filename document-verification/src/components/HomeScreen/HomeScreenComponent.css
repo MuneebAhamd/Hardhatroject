@@ -1,0 +1,473 @@
+.Body {
+    flex: 1;
+    border-left: 1px solid;
+    border-image: linear-gradient(45deg, rgb(243, 241, 243, 0.5), rgb(192, 192, 192, 0.5)) 1;
+    margin-left: 9.5%;
+}
+
+.paraOne {
+    width: 57%;
+    height: 72px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 12%;
+    margin-top: 2%;
+    color: #5D5D5D;
+}
+
+.btnBody {
+    display: flex;
+    flex-direction: row;
+    border: 0px solid #FFF;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    color: white;
+    width: 237px;
+    height: 64px;
+    background: conic-gradient(from -90deg at 102% 100%, #28A745 0deg, rgba(0, 0, 0, 0.25) 273.47deg, rgba(86, 219, 116, 0) 360deg);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    margin-left: 12%;
+    margin-top: 4%
+}
+
+.paraTwo {
+    width: 75%;
+    height: 36px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #5D5D5D;
+    margin-left: 12%;
+    margin-top: 4%
+}
+
+.greenHeading {
+    height: 29px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #28A745;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.greyHeading {
+    height: 29px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #5D5D5D;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.bodyHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    gap: 18px;
+    width: 27%;
+    height: 76px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 25%;
+    margin-top: 5%
+}
+
+.SecureDocsLogo {
+    position: absolute;
+    width: 13.5%;
+    left: 3.55%;
+    margin-left: -30%;
+    top: 40%;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.Graphicelementfilemanagement {
+    width: 50%;
+    height: 20%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.paraThree {
+    width: 70%;
+    height: 10%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #5D5D5D;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+
+.oneImg {
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.simpletxt {
+    width: 85px;
+    height: 29px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #5D5D5D;
+}
+
+.simpletxtTwo {
+    width: 85px;
+    height: 29px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #5D5D5D;
+    margin-left: 5%;
+}
+
+.simpletxtThree {
+    height: 29px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #5D5D5D;
+    margin-left: 11%;
+    margin-top: -19%;
+}
+
+.simpletxtpara {
+    width: 212px;
+    height: 54px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #5D5D5D;
+}
+
+.simpletxtparaTwo {
+    width: 180px;
+    height: 54px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #5D5D5D;
+    margin-left: 5%;
+}
+
+.simpletxtparaThree {
+    width: 212px;
+    height: 54px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #5D5D5D;
+    margin-left: 11%;
+}
+
+.simpleone {
+    margin-top: -10%;
+    margin-left: 25.5%;
+}
+
+.twoImg {
+    margin-left: 20%;
+}
+
+.threeImg {
+    margin-left: 40%
+}
+
+.paraFour {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #5D5D5D;
+}
+
+.paraFourDiv {
+    width: 58%;
+    height: 72px;
+    margin-top: 15%;
+    margin-bottom: 4%;
+    margin-left: 20%;
+}
+
+.btnMobile {
+    display: none;
+}
+
+.card {
+    display: none;
+}
+
+@media (max-width: 880px) {
+    .Body {
+        flex: 1;
+        margin-left: 0%;
+    }
+
+    .paraOne {
+        width: 88%;
+        height: 0px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        margin-left: 10%;
+        margin-top: 0%;
+        padding-top: 25%;
+        margin-bottom: 50%;
+        color: #5D5D5D;
+        line-height: 14px;
+    }
+
+    .btnBody {
+        display: none;
+    }
+
+    .paraTwo {
+        width: 75%;
+        height: 0px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #5D5D5D;
+        margin-left: 12%;
+        margin-bottom: 0%;
+    }
+
+    .greenHeading {
+        height: 29px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: #28A745;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-top: 50%;
+    }
+
+    .greyHeading {
+        height: 29px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: #5D5D5D;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .bodyHeading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px;
+        gap: 18px;
+        width: 50%;
+        height: 120px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .SecureDocsLogo {
+        display: none;
+    }
+
+    .Graphicelementfilemanagement {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+
+    .paraThree {
+        width: 70%;
+        height: 0%;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #5D5D5D;
+        margin-left: 12%;
+        margin-top: 10%;
+    }
+
+    .oneImg {
+        display: none;
+    }
+
+    .simpletxt {
+        display: none;
+    }
+
+    .simpletxtTwo {
+        display: none;
+    }
+
+    .simpletxtThree {
+        display: none;
+    }
+
+    .simpletxtpara {
+        display: none;
+    }
+
+    .simpletxtparaTwo {
+        display: none;
+    }
+
+    .simpletxtparaThree {
+        display: none;
+    }
+
+    .simpleone {
+        display: none;
+    }
+
+    .twoImg {
+        display: none;
+    }
+
+    .threeImg {
+        display: none;
+    }
+
+    .paraFour {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #5D5D5D;
+    }
+
+    .paraFourDiv {
+        width: 65%;
+        height: 150px;
+        margin-top: 15%;
+        margin-bottom: 0%;
+        margin-left: 15%;
+    }
+
+    .btnMobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 125px;
+        height: 56px;
+        left: 1704px;
+        top: 41px;
+        background: conic-gradient(from -90deg at 102% 100%, #28A745 0deg, rgba(0, 0, 0, 0.25) 273.47deg, rgba(86, 219, 116, 0) 360deg);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 10px;
+        color: white;
+        border: 0px solid #FFF;
+    }
+
+    .mob-Design {
+        margin-bottom: 32px;
+        margin-left: 32px;
+        margin-top: -82px;
+    }
+
+    .MobDesigVerticalSlider {
+        overflow-y: scroll;
+        display: flex;
+        margin-right: 5%;
+    }
+
+    .card {
+        display: flex;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 10%;
+        margin-left: 7%;
+    }
+
+    .CardOneImage {
+        height: 75px;
+        margin-right: 15px;
+    }
+
+    .CardOneHeading {
+        height: 29px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 39px;
+        align-items: center;
+        text-transform: uppercase;
+        color: #5D5D5D;
+    }
+
+    .CardOnePara {
+        width: 190px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #5D5D5D;
+    }
+}

@@ -1,0 +1,110 @@
+.Docimg {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.dropZoneCs {
+    box-sizing: border-box;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    height: 150px;
+    background: rgba(40, 167, 69, 0.15);
+    border: 1px dashed #5D5D5D;
+    border-radius: 10px;
+}
+
+
+.pBarComplete {
+    height: 132px;
+    left: 0px;
+    top: 0px;
+    background: rgba(40, 167, 69, 0.15);
+    border: 1px solid #5D5D5D;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: 'flex';
+    align-items: center;
+}
+
+.pBarUploading {
+    height: 129px;
+    left: 0px;
+    top: 0px;
+    background: rgba(40, 167, 69, 0.15);
+    border: 1px solid #5D5D5D;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.pBarCompleteStyle {
+    width: 85%;
+    margin-left: 25px;
+    height: 1px;
+    background-color: lightgray
+}
+
+
+.pBarCompleteStylePercentage {
+    margin-left: 1px;
+}
+
+
+.DropFIlesHead {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5D5D5D;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.DropFIlesHeadLink {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #28A745;
+    text-align: center;
+}
+
+.maxFileSize {
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(40, 167, 69, 0.5);
+}
+
+.histroyProgress {
+    display: flex;
+    margin: 20px;
+}
+
+.fileUploaded {
+    margin-top: 5px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5D5D5D;
+}
+
+.pBarCompleteStylePercentage {
+    height: 13px;
+    margin-left: 10px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #5D5D5D;
+}

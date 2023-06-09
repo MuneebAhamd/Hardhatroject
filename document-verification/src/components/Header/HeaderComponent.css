@@ -1,0 +1,239 @@
+.Header {
+    display: flex;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(45deg, rgb(243, 241, 243, 0.5), rgb(192, 192, 192, 0.4)) 1;
+    /* background-image: url("./assets/frillBg.png"), linear-gradient(to right, rgb(224, 242, 243), rgb(242, 249, 250)); */
+    border-bottom-width: 10%;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    margin-right: 10%;
+}
+
+.headerset {
+    border-bottom: 1px solid;
+    border-image: linear-gradient(45deg, rgb(243, 241, 243, 0.5), rgb(192, 192, 192, 0.4)) 1;
+    border-bottom-width: 10%;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+}
+
+.leftHead {
+    display: flex;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+.headerLogo {
+    flex: 1;
+    height: 38.504783630371094px;
+    margin-top: 21%;
+    margin-right: 7%;
+    margin-left: 10%;
+}
+
+.MiddleHeader {
+    display: flex;
+    margin-top: 4%;
+    flex: 1;
+    justify-content: right;
+}
+
+.Home {
+    margin-right: 4%;
+    font-family: 'Lato';
+    font-style: normal;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #0F1626;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+Link:hover,
+a:hover {
+    color: #28A745;
+    text-decoration: bold;
+}
+
+.Dashboard {
+    width: 73px;
+    height: 18px;
+    margin-right: 4%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 15px;
+    color: #0F1626;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+.Files {
+    width: 31px;
+    height: 18px;
+    margin-right:10px;
+    font-family: 'Lato';
+    margin-right: 20%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #0F1626;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+.Setting {
+    width: 47px;
+    height: 18px;
+    margin-right: 20%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 15px;
+    color: #0F1626;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+.FAQs {
+    width: 36px;
+    height: 18px;
+    font-family: 'Lato';
+    margin-right: 20%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #0F1626;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+
+.RightHeader {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 3%;
+    margin-left: 3%;
+
+}
+
+.lefth1 {
+    height: 24px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #28A745;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 24%;
+}
+.btnHeader1{
+    margin-left: 10%;
+
+    
+}
+.btnHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 152px;
+    height: 66px;
+    left: 1704px;
+    top: 41px;
+    background: conic-gradient(from -90deg at 102% 100%, #28A745 0deg, rgba(0, 0, 0, 0.25) 273.47deg, rgba(86, 219, 116, 0) 360deg);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    color: white;
+    border: 0px solid #FFF;
+}
+
+.mobile-Design {
+    display: none;
+}
+
+/* :where(.css-dev-only-do-not-override-1e3x2xa).ant-btn-primary {
+    color: #28A745;
+    background-color: none;
+    box-shadow: 0 0px 0 rgba(5, 147, 255, 0);
+    display: none;
+} */
+
+.mobileMenuButton {
+    display: none;
+}
+
+@media (max-width: 880px) {
+
+    .MiddleHeader {
+        display: none;
+    }
+
+    .RightHeader {
+        display: none;
+    }
+
+    .bigmenu {
+        display: none;
+    }
+
+    .menubtn {
+        position: absolute;
+        margin-top: 35px;
+        right: 20px;
+        background-color: transparent;
+        color: #28A745;
+        border: none;
+    }
+
+    .mobileMenuButton {
+        display: flex;
+        position: absolute;
+        right: 20px;
+        background-color: transparent;
+        color: #28A745;
+        border: none;
+    }
+}
+/* .nav{
+    margin-right: 20px;
+} */
+@media (max-width: 750px) {
+
+    .bigmenu {
+        display: none;
+    }
+
+    .menubtn {
+        position: absolute;
+        margin-top: 35px;
+        right: 20px;
+        background-color: transparent;
+        color: #28A745;
+        border: none;
+    }
+}
